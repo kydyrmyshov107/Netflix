@@ -1,7 +1,58 @@
 .First {
-  img {
-    width: 100%;
-    overflow: hidden;
-    filter: brightness(0.5);
+  height: 100vh;
+  overflow: hidden;
+  filter: brightness(0.5);
+  background-image: url("./../../../assets/KG-ru-20240624-POP_SIGNUP_TWO_WEEKS-perspective_WEB_4107af1d-602c-4884-a714-c19620373931_large.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  color: white;
+  position: absolute;
+  left: 370px;
+  top: 320px;
+
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-align: center;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+      sans-serif;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: center;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+      sans-serif;
+  }
+
+  .buttons {
+    background: #e50914;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 5px 12px;
+    border-radius: calc(0.25rem - 0.0625rem);
+  }
+
+  button {
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: 400;
+    min-height: 44px;
   }
 }
