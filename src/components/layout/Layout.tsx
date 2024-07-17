@@ -1,7 +1,7 @@
 import { Route, Routes, useLocation } from "react-router-dom";
 import Footer from "./footer/Footer";
 import Header from "./header/Header";
-import First from "../pages/first/First";
+import First from "../pages/homeSections/first/First";
 import scss from "./Layout.module.scss";
 
 const Layout = () => {

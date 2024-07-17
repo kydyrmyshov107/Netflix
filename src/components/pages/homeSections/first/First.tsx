@@ -1,4 +1,4 @@
-import Arrow from "../../../assets/icon/Arrow";
+import Arrow from "../../../../assets/icon/Arrow";
 import scss from "./First.module.scss";
 const First = () => {
   return (
