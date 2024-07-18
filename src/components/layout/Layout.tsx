@@ -3,6 +3,7 @@ import Footer from "./footer/Footer";
 import Header from "./header/Header";
 import First from "../pages/homeSections/first/First";
 import scss from "./Layout.module.scss";
+import Wrapper from "../pages/homeSections/wrapper/Wrapper";
 
 const Layout = () => {
   const location = useLocation();
@@ -15,6 +16,7 @@ const Layout = () => {
       <main>
         <Routes>
           <Route path="/" element={<First />} />
+          <Route path="/home" element={<Wrapper />} />
         </Routes>
       </main>
       {!isFirst && <Footer />}
