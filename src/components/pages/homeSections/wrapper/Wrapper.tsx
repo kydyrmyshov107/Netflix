@@ -1,6 +1,7 @@
+import scss from './Wrapper.module.scss'
 const Wrapper = () => {
   return (
-    <div>
+    <div className={scss.Wrapper}>
 
     </div>
   );
